@@ -47,7 +47,7 @@ ul {
     font-size: 18px;
     color: #e5e7eb;
     background-color: #1f2937;
-    padding: 20px;
+    padding: 40px;
 }
 
 /*BODY*/
@@ -96,6 +96,18 @@ ul {
     font-size: 18px;
 }
 
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    color: #e5e7eb;
+    font-weight: bold;
+    border: none;
+}
+
 /*Box 2*/
 
 .title {
@@ -138,3 +150,76 @@ ul {
 
 /*Box 3*/
 
+.box3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 150px;
+    padding-left: 375px;
+    padding-right: 375px;
+}
+
+.quote {
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    display: flex;
+}
+
+.thor {
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+/*BOX 4*/
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 15px;
+    gap: 150px;
+    padding-right: 125px;
+    padding-left: 125px;
+}
+
+.act-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.action1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.action2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.act-right {
+    display: flex;
+}
+
+.two {
+    border: 2px solid #e5e7eb;
+}
